@@ -12,7 +12,7 @@ class ArticleBloc extends Bloc<ArticleEvent, ArticleState> {
 
   @override
   // TODO: implement initialState
-  ArticleState get initialState => null;
+  ArticleState get initialState => ArticleInitialState();
 
   @override
   Stream<ArticleState> mapEventToState(ArticleEvent event) async* {
